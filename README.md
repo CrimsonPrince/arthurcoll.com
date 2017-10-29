@@ -1,1 +1,1 @@
-arthurcoll.com
+Old code from the Website at ArthurColl.com, this code is old and was made when I was much less knowlegable therefore it's being scrapped completely and being replaced with a new code base in the near future.
