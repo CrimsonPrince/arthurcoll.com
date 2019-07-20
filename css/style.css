@@ -5,16 +5,39 @@ body {
 }
 
 .masthead {
+    position:relative;
+    background:none;
     height: 100vh;
     min-height: 500px;
+ }
+ .bg-img {
+    content:"";
+    display:block;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+
+    z-index:-1;
+ 
+    /* Add Blur */
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+ 
+    /* Background */
     background-image: url('../img/background.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
+   -o-background-size: cover;
+ }
 
   img {
-      height: 9em
+      height: 9em;
   }
 
 .test {
