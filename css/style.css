@@ -22,11 +22,11 @@ body {
     z-index:-1;
  
     /* Add Blur */
-    -webkit-filter: blur(5px);
-    -moz-filter: blur(5px);
-    -o-filter: blur(5px);
-    -ms-filter: blur(5px);
-    filter: blur(5px);
+    -webkit-filter: blur(5px) brightness(50%);
+    -moz-filter: blur(5px) brightness(50%);
+    -o-filter: blur(5px) brightness(50%);
+    -ms-filter:blur(5px) brightness(50%);
+    filter: blur(5px) brightness(50%);
  
     /* Background */
     background-image: url('../img/background.jpg');
@@ -89,4 +89,19 @@ body {
     background-color: #2ecc71;
     color: #fff;
     filter: drop-shadow(5px 5px 0 rgb(46,204,113,0.6));
+}
+
+.my-info-header {
+    font-size: 3em;
+    color: #2ecc71;
+}
+
+.blob-owo {
+    background-image: url('https://discordemoji.com/assets/emoji/blobowo.png');
+    height: 1em;
+    display: inline-block;
+    width: 1em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 1em 1em;
 }
