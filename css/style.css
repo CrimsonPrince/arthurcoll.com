@@ -1,107 +1,88 @@
 body {
-    background-color: #181818;
-    font-family: 'Montserrat',sans-serif;
-    color: #fff;
+	background-color: #181818;
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
 }
-
 .masthead {
-    position:relative;
-    background:none;
-    height: 100vh;
-    min-height: 500px;
- }
- .bg-img {
-    content:"";
-    display:block;
-    position:absolute;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-
-    z-index:-1;
- 
-    /* Add Blur */
-    -webkit-filter: blur(5px) brightness(50%);
-    -moz-filter: blur(5px) brightness(50%);
-    -o-filter: blur(5px) brightness(50%);
-    -ms-filter:blur(5px) brightness(50%);
-    filter: blur(5px) brightness(50%);
- 
-    /* Background */
-    background-image: url('../img/background.jpg');
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-   -o-background-size: cover;
- }
-
-.personal 
-{
-    flex-direction: unset;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 9em;
+	position: relative;
+	background: none;
+	height: 100vh;
+	min-height: 500px;
 }
-
-.personal   img {
-    height: 8em;
+.bg-img {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+	/* Add Blur */
+	-webkit-filter: blur(5px) brightness(50%);
+	-moz-filter: blur(5px) brightness(50%);
+	-o-filter: blur(5px) brightness(50%);
+	-ms-filter: blur(5px) brightness(50%);
+	filter: blur(5px) brightness(50%);
+	/* Background */
+	background-image: url('../img/background.jpg');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
 }
-
+.personal {
+	flex-direction: unset;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 9em;
+}
+.personal img {
+	height: 8em;
+}
 .ptext {
-    margin: 1.5em;
-    filter: drop-shadow(6px 6px 0 rgba(0,0,0,0.4));
-    letter-spacing: 1px;
+	margin: 1.5em;
+	filter: drop-shadow(6px 6px 0 rgba(0, 0, 0, 0.4));
+	letter-spacing: 1px;
 }
-
-.buttons 
-{
-    text-align: center;
-    margin: 1em;
+.buttons {
+	text-align: center;
+	margin: 1em;
 }
-
-.buttons a
-{
-    margin: 0.25em;
+.buttons a {
+	margin: 0.25em;
 }
-
 .github {
-    background-color: #292d32;
-    color: #fff;
-    filter: drop-shadow(5px 5px 0 rgb(41,45,50,0.6));
+	background-color: #292d32;
+	color: #fff;
+	filter: drop-shadow(5px 5px 0 rgb(41, 45, 50, 0.6));
 }
-
-.linkedin
-{
-    background-color: #0077b5;
-    color: #fff;
-    filter: drop-shadow(5px 5px 0 rgb(0,119,181,0.6));
+.linkedin {
+	background-color: #0077b5;
+	color: #fff;
+	filter: drop-shadow(5px 5px 0 rgb(0, 119, 181, 0.6));
 }
-
 .twitter {
-    background-color: #1da1f2;
-    color: #fff;
-    filter: drop-shadow(5px 5px 0 rgb(29,161,242,0.6));
+	background-color: #1da1f2;
+	color: #fff;
+	filter: drop-shadow(5px 5px 0 rgb(29, 161, 242, 0.6));
 }
-
 .email {
-    background-color: #2ecc71;
-    color: #fff;
-    filter: drop-shadow(5px 5px 0 rgb(46,204,113,0.6));
+	background-color: #2ecc71;
+	color: #fff;
+	filter: drop-shadow(5px 5px 0 rgb(46, 204, 113, 0.6));
 }
-
 .my-info-header {
-    font-size: 3em;
-    color: #2ecc71;
+	font-size: 3em;
+	color: #2ecc71;
 }
-
 .blob-owo {
-    background-image: url('https://discordemoji.com/assets/emoji/blobowo.png');
-    height: 1em;
-    display: inline-block;
-    width: 1em;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 1em 1em;
+	background-image: url('https://discordemoji.com/assets/emoji/blobowo.png');
+	height: 1em;
+	display: inline-block;
+	width: 1em;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 1em 1em;
 }
