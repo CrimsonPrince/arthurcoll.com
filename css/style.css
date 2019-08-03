@@ -36,19 +36,23 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 9em;
 }
 .personal img {
-	height: 8em;
+	height: 8.5em;
+	margin-bottom: 20px;
 }
 .ptext {
 	margin: 1.5em;
 	filter: drop-shadow(6px 6px 0 rgba(0, 0, 0, 0.4));
 	letter-spacing: 1px;
+	filter: drop-shadow(6px 6px 0 rgba(0,0,0,0.4));
 }
 .buttons {
 	text-align: center;
 	margin: 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 }
 .buttons a {
 	margin: 0.25em;
