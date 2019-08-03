@@ -157,4 +157,13 @@ body {
   font-size: 50px;
 }
 
+footer {
+	background-color: #282828;
+	font-size: 1em;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-top: 15px; 
+}
+
 
