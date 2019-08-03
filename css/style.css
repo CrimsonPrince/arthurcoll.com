@@ -101,14 +101,22 @@ body {
 	font-size: 3em;
 	color: #2ecc71;
 }
-.blob-owo {
-	background-image: url('https://discordemoji.com/assets/emoji/blobowo.png');
+
+.blob {
 	height: 1em;
 	display: inline-block;
 	width: 1em;
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: 1em 1em;
+}
+
+.blob-owo {
+	background-image: url('../img/blobowo.png');
+}
+
+.blob-pop {
+	background-image: url('../img/blob-pop.png');
 }
 .portfolio-items-wrapper .mix {
 	padding: 5px;
