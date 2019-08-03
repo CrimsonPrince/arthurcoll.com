@@ -73,8 +73,6 @@ body {
     width: auto;
   }
   
-
-
 }
 
 .github {
@@ -100,6 +98,14 @@ body {
 .my-info-header {
 	font-size: 3em;
 	color: #2ecc71;
+}
+
+.my-info-about {
+	margin-bottom: 4em;
+}
+
+.portfolio-header {
+	margin-bottom: 2em;
 }
 
 .blob {
