@@ -87,30 +87,6 @@ body {
 	background-size: 1em 1em;
 }
 
-
-.portfolio-filter {
-  margin-bottom: 40px;
-  text-align: center;
-}
-
-.portfolio-filter button {
-  border: none;
-  outline: none;
-  border: 1px solid rgba(236, 239, 241, 0.07);
-  background: transparent;
-  display: inline-block;
-  font-size: 16px;
-  padding: 6px 20px;
-  font-weight: 700;
-  color: #737f8a;
-  transition: .3s all;
-}
-
-.portfolio-filter button.mixitup-control-active {
-  border: 1px solid #57cbcc;
-  color: #57cbcc;
-}
-
 .portfolio-items-wrapper .mix {
   padding: 5px;
 }
@@ -171,18 +147,10 @@ body {
   color: #555;
 }
 
-.portfolio-block .caption .search-icon {
-  background: #57cbcc;
-  width: 50px;
-  height: 50px;
-  color: #fff;
-  display: inline-block;
-  font-size: 20px;
-  border-radius: 30px;
-}
 
 .portfolio-block .caption .search-icon i {
-  line-height: 50px;
+  padding-bottom: 10px;
+  font-size: 50px;
 }
 
 
