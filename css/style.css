@@ -117,6 +117,7 @@ body {
 
 .portfolio-block {
   position: relative;
+  color: #181818;
 }
 
 .portfolio-block:before {
