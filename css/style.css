@@ -57,6 +57,26 @@ body {
 .buttons a {
 	margin: 0.25em;
 }
+
+@media screen and (max-width: 480px) 
+{
+
+.buttons
+{
+   flex-direction: column;
+}
+
+  
+  .buttons a
+  {
+    margin: 0;
+    width: auto;
+  }
+  
+
+
+}
+
 .github {
 	background-color: #292d32;
 	color: #fff;
@@ -151,4 +171,29 @@ footer {
 	flex-direction: row;
 	justify-content: center;
 	padding-top: 15px;
+}
+
+.arrow {
+  text-align: center;
+  margin: 8% 0;
+}
+.arrow a {
+	color: white;
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
 }
