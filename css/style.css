@@ -74,7 +74,11 @@ body {
   }
   
 }
-
+.link-btn {
+	height: 38px;
+    line-height: 38px;
+    padding: 0 30px;
+}
 .github {
 	background-color: #292d32;
 	color: #fff;
