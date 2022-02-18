@@ -58,12 +58,14 @@ body {
 	margin: 0.25em;
 }
 
-@media screen and (max-width: 480px) 
+@media screen and (max-width: 750px) 
 {
 
 .buttons
 {
    flex-direction: column;
+   flex-flow: row wrap;
+   width: calc(45% - 30px)
 }
 
   
