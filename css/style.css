@@ -31,16 +31,24 @@ body {
 	background-size: cover;
 	-o-background-size: cover;
 }
+
+.container {
+	width: 100%;
+}
+
 .personal {
 	flex-direction: unset;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-.personal img {
+
+.avatar {
 	height: 8.5em;
 	margin-bottom: 20px;
+	border-radius: 100%;
 }
+
 .ptext {
 	margin: 1.5em;
 	filter: drop-shadow(6px 6px 0 rgba(0, 0, 0, 0.4));
@@ -63,23 +71,19 @@ body {
 
 .buttons
 {
-   flex-direction: column;
    flex-flow: row wrap;
-   width: calc(45% - 30px)
 }
 
-  
-  .buttons a
-  {
-    margin: 0;
-    width: auto;
-  }
-  
-}
 .link-btn {
 	height: 38px;
     line-height: 38px;
     padding: 0 30px;
+	margin: 0;
+    width: calc(45% - 30px);
+	display: flex;
+	justify-content: center;
+}
+
 }
 .github {
 	background-color: #292d32;
