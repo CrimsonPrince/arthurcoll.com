@@ -145,13 +145,21 @@ body {
 	color: #fff;
 	filter: drop-shadow(5px 5px 0 rgb(46, 204, 113, 0.6));
 }
-.my-info-header {
-	font-size: 3em;
-	color: #2ecc71;
-}
 
 .my-info-about {
 	margin-bottom: 4em;
+}
+
+.my-info-about p {
+	padding-left: 15%;
+    padding-right: 15%
+}
+
+.my-info-header {
+	font-size: 3em;
+	color: #2ecc71;
+	padding-left: 15%;
+    padding-right: 15%
 }
 
 .portfolio-header {
@@ -173,9 +181,6 @@ body {
 
 .blob-pop {
 	background-image: url('../img/blob-pop.webp');
-}
-.portfolio-items-wrapper .mix {
-	padding: 5px;
 }
 .portfolio-block {
 	position: relative;
