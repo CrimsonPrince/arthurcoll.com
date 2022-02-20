@@ -80,6 +80,8 @@ body {
 .ptext {
 	margin: 0;
 	letter-spacing: 1px;
+	font-size: 4rem;
+	margin-left: 0.5em;
 }
 
 @media screen and (max-width: 750px) 
