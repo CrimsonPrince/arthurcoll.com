@@ -35,15 +35,31 @@ body {
 }
 
 .container {
-	width: 100%;
+	width: 80%;
+	display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
 }
 
-.personal {
-	flex-direction: unset;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+a {
+	text-decoration: none;
 }
+
+.avatar-box {
+	display: flex;
+    justify-content: right;
+}
+.title {
+}
+
+.title i {
+	background-image: url(https://twemoji.maxcdn.com/2/svg/1f1f3-1f1f4.svg);
+    vertical-align: -0.3em;
+    height: 1.25em;
+    width: 1.25em;
+    background-size: 1.25em 1.25em;
+}
+
 .buttons {
 	text-align: center;
 	margin: 0px;
@@ -64,13 +80,6 @@ body {
 	justify-content: center;
 }
 
-.personal {
-	flex-direction: row;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
 .avatar {
 	height: 8.5em;
 	margin-bottom: 20px;
@@ -80,7 +89,7 @@ body {
 .ptext {
 	margin: 0;
 	letter-spacing: 1px;
-	font-size: 4rem;
+	font-size: 3rem;
 	margin-left: 0.5em;
 }
 
@@ -102,7 +111,7 @@ body {
 	justify-content: center;
 }
 
-.personal {
+.title {
 	flex-direction: column;
 	display: flex;
 	justify-content: center;
@@ -121,9 +130,6 @@ body {
 }
 
 }
-
-
-
 
 .github {
 	background-color: #292d32;
