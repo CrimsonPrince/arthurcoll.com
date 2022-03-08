@@ -35,10 +35,7 @@ body {
 }
 
 .container {
-	width: 80%;
-	display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
+	width: 100%;
 }
 
 a {
@@ -47,9 +44,11 @@ a {
 
 .avatar-box {
 	display: flex;
-    justify-content: right;
+    justify-content: center;
+	width: 100%;
 }
 .title {
+	display: inline-block;
 }
 
 .title i {
@@ -68,7 +67,9 @@ a {
 	justify-content: center;
 }
 .buttons a {
-	margin: 0.25em;
+	margin: 0.5em;
+    margin-top: 2em;
+    padding: 0 30px;
 }
 
 .link-btn {
@@ -82,8 +83,9 @@ a {
 
 .avatar {
 	height: 8.5em;
-	margin-bottom: 20px;
+	margin-bottom: 0px;
 	border-radius: 100%;
+	display: inline-block;
 }
 
 .ptext {
@@ -203,7 +205,8 @@ footer {
 
 .arrow {
   text-align: center;
-  margin: 8% 0;
+  margin-top: 8%;
+  grid-column: span 2;
 }
 .arrow a {
 	color: white;
