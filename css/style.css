@@ -139,9 +139,9 @@ a {
 	filter: drop-shadow(5px 5px 0 rgb(41, 45, 50, 0.6));
 }
 .linkedin {
-	background-color: #e74c3c;
+	background-color: rgb(10, 102, 194);
 	color: #fff;
-	filter: drop-shadow(5px 5px 0 rgb(231, 76, 60, 0.6));
+	filter: drop-shadow(5px 5px 0 rgb(10, 102, 194,  0.6));
 }
 .twitter {
 	background-color: #1da1f2;
@@ -152,6 +152,12 @@ a {
 	background-color: #2ecc71;
 	color: #fff;
 	filter: drop-shadow(5px 5px 0 rgb(46, 204, 113, 0.6));
+}
+
+.cv {
+	background-color: #e74c3c;
+	color: #fff;
+	filter: drop-shadow(5px 5px 0 rgb(231, 76, 60, 0.6));
 }
 
 .my-info-about {
