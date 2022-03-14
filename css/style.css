@@ -57,6 +57,7 @@ a {
     height: 1.25em;
     width: 1.25em;
     background-size: 1.25em 1.25em;
+	display: inline-block;
 }
 
 .buttons {
@@ -233,4 +234,34 @@ footer {
   60% {
     transform: translateY(-15px);
   }
+}
+
+i {
+	height: 2em;
+	width: 2em;
+	display: inline-block
+}
+
+.website {
+
+}
+
+.docker {
+	background-image: url('../img/docker.svg');
+}
+
+.pokedex {
+	background-image: url('../img/poke.svg');
+}
+
+.cleanspace {
+	background-image: url('../img/air.svg');
+}
+
+.shurikon {
+	background-image: url('../img/logo.svg');
+}
+
+.discount {
+	background-image: url('../img/docker.svg');
 }
