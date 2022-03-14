@@ -53,11 +53,11 @@ a {
 
 .title i {
 	background-image: url(https://twemoji.maxcdn.com/2/svg/1f1f3-1f1f4.svg);
-    vertical-align: -0.3em;
-    height: 1.25em;
-    width: 1.25em;
-    background-size: 1.25em 1.25em;
+    vertical-align: -0.15em;
+    height: 1em;
+    width: 1em;
 	display: inline-block;
+	margin-right: 0.2em;
 }
 
 .buttons {
@@ -165,9 +165,10 @@ a {
 	margin-bottom: 4em;
 }
 
-.my-info-about p {
+.my-info-text {
 	padding-left: 15%;
-    padding-right: 15%
+    padding-right: 15%;
+	font-size: 18px;
 }
 
 .my-info-header {
@@ -183,6 +184,7 @@ a {
 
 .portfolio {
 	padding-left: 15%;
+	font-size: 18px;
 }
 
 .blob {
@@ -239,7 +241,8 @@ footer {
 i {
 	height: 2em;
 	width: 2em;
-	display: inline-block
+	display: inline-block;
+	vertical-align: -0.15em;
 }
 
 .website {
