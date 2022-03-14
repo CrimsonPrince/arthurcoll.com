@@ -52,12 +52,13 @@ a {
 }
 
 .title i {
-	background-image: url(https://twemoji.maxcdn.com/2/svg/1f1f3-1f1f4.svg);
+	background-image: url(../img/IE.png);
     vertical-align: -0.15em;
     height: 1em;
     width: 1em;
 	display: inline-block;
 	margin-right: 0.2em;
+	background-size: 1em;
 }
 
 .buttons {
@@ -92,8 +93,18 @@ a {
 .ptext {
 	margin: 0;
 	letter-spacing: 1px;
-	font-size: 3rem;
+	font-size: 5rem;
+	margin-left: 0.3em;
+	font-weight: 700;
+}
+
+.ptext-under {
+	margin: 0;
+	letter-spacing: 1px;
+	font-size: 2.5rem;
 	margin-left: 0.5em;
+	font-style: italic;
+	font-family: monospace;
 }
 
 @media screen and (max-width: 750px) 
@@ -121,17 +132,29 @@ a {
 	align-items: center;
 }
 
+.avatar-box
+{
+	display: block;
+}
+
 .avatar {
 	height: 8.5em;
 	margin-bottom: 20px;
 	border-radius: 100%;
+	margin-left: 30%;
 }
 
 .ptext {
 	margin: 0;
 	letter-spacing: 1px;
+	font-size: 16vmin;
 }
 
+.ptext-under {
+	font-size: 1.75rem;
+	margin: 0;
+	letter-spacing: 1px;
+}
 }
 
 .github {
