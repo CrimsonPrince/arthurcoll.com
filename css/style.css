@@ -269,7 +269,8 @@ i {
 }
 
 .website {
-
+	background-image: url('../img/code.svg');
+	background-size: 2em 2em;
 }
 
 .docker {
@@ -285,11 +286,13 @@ i {
 }
 
 .shurikon {
-	background-image: url('../img/logo.svg');
+	background-image: url('../img/shurikon.webp');
+	background-size: 2em 2em;
 }
 
 .discount {
-	background-image: url('../img/docker.svg');
+	background-image: url('../img/app2.svg');
+	background-size: 2em 2em;
 }
 
 footer a {
