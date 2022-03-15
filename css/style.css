@@ -236,9 +236,9 @@ footer {
 }
 
 .arrow {
-  text-align: center;
-  margin-top: 8%;
-  grid-column: span 2;
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
 }
 .arrow a {
 	color: white;
@@ -290,4 +290,8 @@ i {
 
 .discount {
 	background-image: url('../img/docker.svg');
+}
+
+footer a {
+	color: #1eaedb;
 }
