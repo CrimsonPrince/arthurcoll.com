@@ -1,2 +1,2 @@
-My Personal Website, Built with Bootstrap 4.
+My Personal Website, built entirely using vanilla JS/CSS.
 Live at https://ArthurColl.com
