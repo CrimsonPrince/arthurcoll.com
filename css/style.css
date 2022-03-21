@@ -164,13 +164,17 @@ footer {
 	padding-top: 15px;
 }
 
-.arrow {
+#arrow {
   position: absolute;
-  left: 50%;
+  left: 49%;
   bottom: 20px;
 }
-.arrow a {
+#arrow a {
 	color: white;
+}
+
+.opacity {
+	opacity: 0;
 }
 .bounce {
   -moz-animation: bounce 2s infinite;
@@ -297,6 +301,12 @@ footer a {
 .portfolio {
 	padding-left: 5%;
 }
+
+#arrow {
+	position: absolute;
+	left: 48.5%;
+	bottom: 20px;
+  }
 
 }
 
