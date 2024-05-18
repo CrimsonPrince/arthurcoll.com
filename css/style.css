@@ -237,6 +237,16 @@ i {
 	background-size: 2em 2em;
 }
 
+.yellowbucket {
+	background-image: url('../img/yellowbucket.svg');
+	background-size: 2em 2em;
+}
+
+.scouts {
+	background-image: url('../img/scout.svg');
+	background-size: 2em 2em;
+}
+
 footer a {
 	color: #1eaedb;
 }
